@@ -1,0 +1,25 @@
+{
+  "name": "font-issue",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf .nuxt pnpm-lock.yaml node_modules dist package-lock.json .output",
+    "superupdate": "pnpm clean && pnpm update --latest && pnpm nuxi upgrade --force"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.2.1",
+    "@iconify/json": "^2.2.280",
+    "@unocss/nuxt": "0.65.1",
+    "@unocss/preset-icons": "0.65.1",
+    "nuxt": "^3.14.1592",
+    "nuxt-security": "2.1.5",
+    "unocss": "0.65.1",
+    "vuetify-nuxt-module": "^0.18.3"
+  }
+}
